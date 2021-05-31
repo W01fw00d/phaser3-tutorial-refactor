@@ -1,0 +1,29 @@
+{
+  "name": "phaser3-tutorial-refactor",
+  "version": "1.0.0",
+  "description": "Based on Phaser 3 Official Tutorial",
+  "main": "index.html",
+  "scripts": {
+    "test": "cypress open",
+    "build": "parcel watch ./src/scripts/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W01fw00d/phaser3-tutorial-refactor.git"
+  },
+  "author": "https://github.com/W01fw00d",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/W01fw00d/phaser3-tutorial-refactor/issues"
+  },
+  "homepage": "https://github.com/W01fw00d/phaser3-tutorial-refactor#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "phaser": "^3.55.1"
+  },
+  "devDependencies": {
+    "cypress": "^7.4.0",
+    "cypress-plugin-snapshots": "^1.4.4",
+    "js-base64": "^2.5.2"
+  }
+}
